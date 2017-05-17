@@ -1,17 +1,17 @@
-import java.util.*;
+import java.util.Arrays;
 
-public class Array
+public class ConcatArray
 {
 	public static void main(String[] args)
 	{
-		System.out.print("\n" + "Concatenate two Array's:" + "\n");
+		System.out.println( "Concatenate two Array's:");
 
                 String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
                 String[] y = {"golf","hotel"};
 
 		Array.concat(x,y);
 		
-		System.out.print("\n");
+		System.out.println("");
 	}
 	public static void concat(String[] a,String[] b)
 	{
